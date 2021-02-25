@@ -37,3 +37,10 @@ Location: Saint-Petersburg
 **Video Editor and Special Effects Specialist**, Lenfilm Studio
 
     * Worked as outsource specialist in making ads and documentary films
+
+## Projects
+
+## Languages
+
+- Russian (Native)
+- English (C1)
