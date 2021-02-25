@@ -32,7 +32,7 @@ Location: Saint-Petersburg
 
     * Developing and support of company's customers web-sites
 
-**January 2006 - January 2014**
+**January 2007 - January 2014**
 
 **Video Editor and Special Effects Specialist**, Lenfilm Studio
 
