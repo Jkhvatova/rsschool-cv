@@ -38,7 +38,20 @@ Location: Saint-Petersburg
 
     * Worked as outsource specialist in making ads and documentary films
 
-## Projects
+## Code examples
+
+```javascript
+function distinct(a) {
+  let b = [a[0]];
+
+  for (let i = 1; i < a.length; i++) {
+if (!b.includes(a[i])) {
+      b.push(a[i]);
+    }
+  }
+  return b;
+}
+```
 
 ## Languages
 
