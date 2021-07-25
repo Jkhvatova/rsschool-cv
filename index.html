@@ -9,12 +9,16 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Questrial:wght@300;400;600&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Julia Khvatova</title>
   </head>
   <body>
-    <header>
-      <div class="container">
+    <div class="container">
+      <header>
         <div class="about">
           <img
             src="https://www.dropbox.com/s/ifj3lldtt0l87ry/Me.jpg?raw=1"
@@ -23,101 +27,145 @@
           <h1>Julia Khvatova</h1>
           <p>Frontend Developer</p>
         </div>
-      </div>
-    </header>
-    <main>
+      </header>
+      <main>
         <section class="profile">
-            <div class="container">
-                <div class="profile-text">
-                    <h2>Profile</h2>
-                    <p>I am a software developer with robust problem-solving skills
-                         and proven experience in creating and designing software 
-                         in a test- driven environment.</p>
-                </div>
-            </div>
+          <div class="profile-text">
+            <h2>Profile</h2>
+            <p>
+              I am a front-end developer with robust problem-solving skills and
+              experience in back-end development.
+            </p>
+          </div>
         </section>
-      
+        <section class="skills">
+          <h2 class="skills">Skills</h2>
+          <div class="skills-list">
+            JavaScript, PHP, HTML/CSS Frameworks/Systems Bootstrap, Foundation,
+            responsive UI
+          </div>
+        </section>
         <section class="education">
-            <div class="container">
-                <div class="education-list">
-          <h2>Education</h2>
-          <article>
-            <h3>1999-2003</h3>
+          <div class="education-list">
+            <h2>Education</h2>
+            <article>
+              <h3>1999-2003</h3>
 
-            <p>
-              <b>Bachelor of Commerce degree</b>, Saint Petersburg State
-              University of Economics and Finance (Saint-Petersburg, Russia)
-            </p>
-          </article>
-          <article>
-            <h3>2018</h3>
-            <p>
-              <b>Responsive Web Design Certificate</b>,
-              <a
-                href="//www.freecodecamp.org/certification/jkhvatova/responsive-web-design"
-                >FreeCodeCamp</a
-              >
-            </p>
-          </article>
-        </div>
-        </div>
+              <p>
+                <b>Bachelor of Commerce degree</b>, Saint Petersburg State
+                University of Economics and Finance (Saint-Petersburg, Russia)
+              </p>
+            </article>
+            <article>
+              <h3>2018</h3>
+              <p>
+                <b>Responsive Web Design Certificate</b>,
+                <a
+                  href="//www.freecodecamp.org/certification/jkhvatova/responsive-web-design"
+                  >FreeCodeCamp</a
+                >
+              </p>
+            </article>
+          </div>
         </section>
         <section class="experience">
-            <div class="container">
           <h2>Experience</h2>
+          <div class="experience-list">
+            <h3>June 2019 - March 2020</h3>
 
-          <h3>June 2019 - March 2020</h3>
+            <p><b>Web-specialist</b>, "BFA-Development"</p>
+            <ul>
+              <li>Front-end support for corporative web-sites</li>
 
-          <p><b>Web-specialist</b>, "BFA-Development"</p>
-          <ul>
-            <li>Front-end support for corporative web-sites</li>
+              <li>Web-analytics</li>
 
-            <li>Web-analytics</li>
+              <li>Managing social media accounts</li>
+            </ul>
+            <h3>January 2014 - currently employed</h3>
 
-            <li>Managing social media accounts</li>
-          </ul>
-          <h3>January 2014 - currently employed</h3>
+            <p>
+              <b>Web-developer</b>,
+              <a href="http://emotiontales.com/">eMotion Tales</a>
+            </p>
+            <ul>
+              <li>Developing and support of company's customers web-sites</li>
+            </ul>
+            <h3>January 2006 - January 2014</h3>
 
-          <p>
-            <b>Web-developer</b>,
-            <a href="http://emotiontales.com/">eMotion Tales</a>
-          </p>
-          <ul>
-            <li>Developing and support of company's customers web-sites</li>
-          </ul>
-          <h3>January 2006 - January 2014</h3>
-
-          <p>
-            <b>Video Editor and Special Effects Specialist</b>, Lenfilm Studio
-          </p>
-          <ul>
-            <li>
-              Worked as outsource specialist in making ads and documentary films
-            </li>
-          </ul>
-        </div>
+            <p>
+              <b>Video Editor and Special Effects Specialist</b>, Lenfilm Studio
+            </p>
+            <ul>
+              <li>
+                Worked as outsource specialist in making ads and documentary
+                films
+              </li>
+            </ul>
+          </div>
         </section>
+
         <section class="projects">
-            <div class="container">
-          <h2>Projects</h2>
-          <blockquote>Coming soon...</blockquote>
+          <div class="projects-text">
+            <h2>Projects</h2>
+            <blockquote>Coming soon...</blockquote>
+          </div>
+        </section>
+
+        <section class="code-samples">
+          <h2>Code examples</h2>
+          <div class="code-samples-detail">
+            <details>
+              <summary>javascript</summary>
+              <code>
+                function distinct(a) { <br />
+                let b = [a[0]];
+                <br />
+                for (let i = 1; i < a.length; i++) {<br />
+                if (!b.includes(a[i])) {<br />
+                b.push(a[i]);<br />
+                }<br />
+                }<br />
+                return b;<br />
+                }
+              </code>
+            </details>
+          </div>
         </section>
         <section class="lang">
           <h2>Languages</h2>
-          <ul>
-            <li>Russian (Native)</li>
-            <li>English (C1)</li>
-          </ul></div>
+          <div class="lang-list">
+            <ul>
+              <li>Russian (Native)</li>
+              <li>English (C1)</li>
+            </ul>
+          </div>
         </section>
-      </div>
-      <address>
-        <a href="mailto:jkhvatova@gmail.com">Contact me</a>
-        <br />
-        Location: Saint-Petersburg
-      </address>
-    </main>
-    <footer>
-      <div class="container"></div>
-    </footer>
+        <section class="contacts">
+          <h2>Contact Me</h2>
+          <ul class="contacts-list">
+            <address>
+              <a href="mailto:jkhvatova@gmail.com">Contact me</a>
+              <br />
+              Location: Saint-Petersburg
+            </address>
+          </ul>
+        </section>
+      </main>
+      <footer>
+        <div class="github">
+          <a href="https://github.com/Jkhvatova"
+            ><img src="GitHub-Mark-32px.png" alt="github"
+          /></a>
+        </div>
+        <div class="rsschool-logo">
+          <a href="https://rs.school/js/"
+            ><img src="rs_school_js.svg" alt="rs-school"
+          /></a>
+        </div>
+        <div class="date">
+          <p>2021</p>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
