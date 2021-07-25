@@ -1,7 +1,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  background: linear-gradient(to bottom, #ced7df 300px, #fff 150px);z§
+  background: linear-gradient(to bottom, #ced7df 300px, #fff 150px);
 }
 .container {
   width: 1146px;
@@ -30,8 +30,8 @@ h2 {
   margin: 0;
 }
 section {
-    padding-bottom: 30px;
-    border-bottom: 5px solid #eff0f2;
+  padding-bottom: 30px;
+  border-bottom: 5px solid #eff0f2;
 }
 .about {
   padding-top: 160px;
@@ -54,26 +54,26 @@ code {
   color: #a4a4a4;
 }
 footer {
-    padding: 60px 0;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: flex-start;
+  padding: 60px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
 }
 .github {
-    padding: 0 20px;
+  padding: 0 20px;
 }
 .rsschool-logo {
-    width: 60px;
-    height: 60px;
-    padding: 0 20px;
+  width: 60px;
+  height: 60px;
+  padding: 0 20px;
 }
 .date {
-    vertical-align: top;
-    margin: 0;
-    padding: 0 20px;
+  vertical-align: top;
+  margin: 0;
+  padding: 0 20px;
 }
 .date p {
-    margin: 0;
+  margin: 0;
 }
