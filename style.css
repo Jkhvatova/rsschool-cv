@@ -3,6 +3,9 @@ body {
   font-size: 16px;
   background: linear-gradient(to bottom, #ced7df 300px, #fff 150px);
 }
+html {
+  scroll-behavior: smooth;
+}
 .container {
   width: 1140px;
   padding: 0;
@@ -33,8 +36,27 @@ section {
   padding-bottom: 30px;
   border-bottom: 5px solid #eff0f2;
 }
+li {
+  list-style: none;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-item {
+  text-transform: uppercase;
+}
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  text-decoration: none;
+  color: #626262;
+  transition: 0.3s;
+}
 .about {
-  padding-top: 160px;
+  padding-top: 60px;
   padding-bottom: 100px;
   border-bottom: 5px solid #eff0f2;
 }
