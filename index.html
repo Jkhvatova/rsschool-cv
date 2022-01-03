@@ -19,9 +19,21 @@
   <body>
     <div class="container">
       <header>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+            <li class="nav-item"><a href="#code-samples" class="nav-link">Code examples</a></li>
+            <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          </ul>
+        </nav>
         <div class="about">
           <img
-            src="https://www.dropbox.com/s/ifj3lldtt0l87ry/Me.jpg?raw=1"
+            src="assets/Me.jpeg"
             alt="Julia Khvatova"
           />
           <h1>Julia Khvatova</h1>
@@ -29,7 +41,7 @@
         </div>
       </header>
       <main>
-        <section class="profile">
+        <section class="profile" id="profile">
           <div class="profile-text">
             <h2>Profile</h2>
             <p>
@@ -39,7 +51,7 @@
             </p>
           </div>
         </section>
-        <section class="skills">
+        <section class="skills" id="skills">
           <h2 class="skills">Skills</h2>
           <div class="skills-list">
             <ul>
@@ -52,7 +64,7 @@
             </ul>
           </div>
         </section>
-        <section class="education">
+        <section class="education" id="education">
           <div class="education-list">
             <h2>Education</h2>
             <article>
@@ -75,7 +87,7 @@
             </article>
           </div>
         </section>
-        <section class="experience">
+        <section class="experience" id="experience">
           <h2>Experience</h2>
           <div class="experience-list">
             <h3>June 2019 - March 2020</h3>
@@ -111,14 +123,17 @@
           </div>
         </section>
 
-        <section class="projects">
+        <section class="projects" id="projects">
           <div class="projects-text">
             <h2>Projects</h2>
-            <blockquote>Coming soon...</blockquote>
+            <ul><li>
+              <a href="https://jkhvatova.github.io/rsschool-cv">CV Project</a>
+            </li></ul>
+            
           </div>
         </section>
 
-        <section class="code-samples">
+        <section class="code-samples" id="code-samples">
           <h2>Code examples</h2>
           <div class="code-samples-detail">
             <details>
@@ -136,7 +151,7 @@
             </details>
           </div>
         </section>
-        <section class="lang">
+        <section class="lang" id="languages">
           <h2>Languages</h2>
           <div class="lang-list">
             <ul>
@@ -145,13 +160,13 @@
             </ul>
           </div>
         </section>
-        <section class="contacts">
+        <section class="contacts" id="contacts">
           <h2>Contact Me</h2>
           <ul class="contacts-list">
             <li>
               <a href="mailto:jkhvatova@gmail.com">jkhvatova@gmail.com</a>
             </li>
-
+            <li>Discord: Julia (@Jkhvatova)</li>
             <li>Location: Saint-Petersburg</li>
           </ul>
         </section>
@@ -168,7 +183,7 @@
           /></a>
         </div>
         <div class="date">
-          <p>2021</p>
+          <p>2022</p>
         </div>
       </footer>
     </div>
